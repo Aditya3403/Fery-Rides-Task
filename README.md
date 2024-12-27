@@ -16,13 +16,13 @@ The Rides List Application is a React-based web application that allows users to
 
 2. Each ride includes details such as:
 
-- Ride ID
+  - Ride ID
 
-- Distance
+  - Distance
 
-- Fare
+  - Fare
 
-- Users can click on a ride to view additional details.
+  Users can click on a ride to view additional details.
 
 (3) Styling
 
@@ -42,37 +42,37 @@ The Rides List Application is a React-based web application that allows users to
 
 1. Clone the repository:
 
-git clone <repository-url>
-cd project
+  git clone <repository-url>
+  cd project
 
 2. Install dependencies:
 
-npm install
+  npm install
 
 (3) Running the Application
 
 1. Start the development server:
 
-npm start
+  npm start
 
 2. Open your browser and navigate to:
 
-http://localhost:3000
+  http://localhost:3000
 
 #API Endpoints
 
 1. Registration Endpoint
 
-URL: http://localhost:3000/register
+  - URL: http://localhost:3000/register
 
-Method: POST
+  - Method: POST
 
-Request Body:
-
-{
-  "username": "<username>",
-  "password": "<password>"
-}
+  - Request Body:
+    
+    {
+      "username": "<username>",
+      "password": "<password>"
+    }
 
 #Response:
 
@@ -82,24 +82,24 @@ Request Body:
 
 2. Rides Endpoint
 
-URL: http://localhost:3000/rides
+ - URL: http://localhost:3000/rides
 
-Method: GET
+ - Method: GET
 
-Response:
+ - Response:
 
-[
-  {
-    "id": 1,
-    "distance": "10 km",
-    "fare": "$5"
-  },
-  {
-    "id": 2,
-    "distance": "15 km",
-    "fare": "$8"
-  }
-]
+    [
+      {
+        "id": 1,
+        "distance": "10 km",
+        "fare": "$5"
+      },
+      {
+        "id": 2,
+        "distance": "15 km",
+        "fare": "$8"
+      }
+    ]
 
 #Custom Styling
 
