@@ -92,12 +92,12 @@ The Rides List Application is a React-based web application that allows users to
       {
         "id": 1,
         "distance": "10 km",
-        "fare": "$5"
+        "fare": "100"
       },
       {
         "id": 2,
         "distance": "15 km",
-        "fare": "$8"
+        "fare": "350"
       }
     ]
 
