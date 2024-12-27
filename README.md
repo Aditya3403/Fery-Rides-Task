@@ -4,58 +4,58 @@ The Rides List Application is a React-based web application that allows users to
 
 #Features
 
-1. User Registration
+(1) User Registration
 
-Users can register with a username and password.
+1. Users can register with a username and password.
 
-A successful registration redirects users to the rides list page.
+2. A successful registration redirects users to the rides list page.
 
-2. Rides List
+(2) Rides List
 
-Displays all available rides in a visually appealing layout.
+1. Displays all available rides in a visually appealing layout.
 
-Each ride includes details such as:
+2. Each ride includes details such as:
 
-Ride ID
+- Ride ID
 
-Distance
+- Distance
 
-Fare
+- Fare
 
-Users can click on a ride to view additional details.
+- Users can click on a ride to view additional details.
 
-3. Styling
+(3) Styling
 
-Aesthetic styling for registration forms and rides list.
+1. Aesthetic styling for registration forms and rides list.
 
-Responsive design to ensure compatibility across devices.
+2. Responsive design to ensure compatibility across devices.
 
 #Setup Instructions
 
-1. Prerequisites
+(1) Prerequisites
 
-Node.js (v14 or later)
+1. Node.js (v14 or later)
 
-npm (v6 or later) or yarn
+2. npm (v6 or later) or yarn
 
-2. Installation
+(2) Installation
 
-Clone the repository:
+1. Clone the repository:
 
 git clone <repository-url>
 cd project
 
-Install dependencies:
+2. Install dependencies:
 
 npm install
 
-3. Running the Application
+(3) Running the Application
 
-Start the development server:
+1. Start the development server:
 
 npm start
 
-Open your browser and navigate to:
+2. Open your browser and navigate to:
 
 http://localhost:3000
 
@@ -103,7 +103,7 @@ Response:
 
 #Custom Styling
 
-(1)Registration Form
+(1) Registration Form
 
 1. Located in RegistrationForm.css
 
@@ -111,7 +111,7 @@ Response:
 
 3. Responsive for mobile and desktop devices.
 
-(2)Rides List
+(2) Rides List
 
 1. Located in RidesList.css
 
