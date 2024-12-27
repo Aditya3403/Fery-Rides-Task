@@ -5,7 +5,7 @@ import "./RidesList.css";
 const RidesList = () => {
     const navigate = useNavigate();
   const [rides, setRides] = useState([]);
-  const [selectedRide, setSelectedRide] = useState(null); // To store selected ride details
+  const [selectedRide, setSelectedRide] = useState(null);
 
   useEffect(() => {
     const fetchRides = async () => {
@@ -24,15 +24,15 @@ const RidesList = () => {
   }, []);
 
   const handleMoreDetails = (ride) => {
-    setSelectedRide(ride); // Set the ride to display in the overlay
+    setSelectedRide(ride); 
   };
 
   const closeOverlay = () => {
-    setSelectedRide(null); // Close the overlay
+    setSelectedRide(null); 
   };
   const handleLogout = () => {
-    // Perform logout actions here (e.g., clearing session, tokens, etc.)
-    navigate("/"); // Redirect to the register page
+
+    navigate("/");
   };
 
   return (

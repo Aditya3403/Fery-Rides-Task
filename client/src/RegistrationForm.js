@@ -5,7 +5,7 @@ import './RegistrationForm.css';
 const RegistrationForm = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [successMessage, setSuccessMessage] = useState(""); // To store the success message
+  const [successMessage, setSuccessMessage] = useState("");
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -20,9 +20,9 @@ const RegistrationForm = () => {
     const result = await response.json();
 
     if (result.message) {
-      // Show success message and redirect to rides list after a delay
+
       setSuccessMessage("Registration successful! Redirecting to rides...");
-      setTimeout(() => navigate("/rides"), 2000); // Redirect after 2 seconds
+      setTimeout(() => navigate("/rides"), 2000); 
     } else {
       alert(result.error || "An error occurred.");
     }
