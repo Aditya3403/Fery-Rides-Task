@@ -30,20 +30,6 @@ he Rides List Application is a React-based web application that allows users to 
 
   - Responsive design to ensure compatibility across devices.
 
-# Folder Structure
-
-project/
-├── src/
-│   ├── components/
-│   │   ├── RegistrationForm.js
-│   │   └── RidesList.js
-│   ├── styles/
-│   │   ├── RegistrationForm.css
-│   │   └── RidesList.css
-│   └── App.js
-└── public/
-     └── index.html
-
 # Setup Instructions
 
 1. Prerequisites
