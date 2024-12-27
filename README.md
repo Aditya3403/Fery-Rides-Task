@@ -103,32 +103,19 @@ Response:
 
 #Custom Styling
 
-Registration Form
+(1)Registration Form
 
-Located in RegistrationForm.css
+1. Located in RegistrationForm.css
 
-Clean and minimalistic design.
+2. Clean and minimalistic design.
 
-Responsive for mobile and desktop devices.
+3. Responsive for mobile and desktop devices.
 
-Rides List
+(2)Rides List
 
-Located in RidesList.css
+1. Located in RidesList.css
 
-Box-styled layout for each ride.
+2. Box-styled layout for each ride.
 
-Enhanced with hover effects and spacing.
+3. Enhanced with hover effects and spacing.
 
-#Future Enhancements
-
-Authentication
-
-Implement user login and logout functionality.
-
-Ride Filtering
-
-Add filtering options based on distance or fare.
-
-Pagination
-
-Introduce pagination for a better user experience with large datasets.
