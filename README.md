@@ -30,20 +30,6 @@ Aesthetic styling for registration forms and rides list.
 
 Responsive design to ensure compatibility across devices.
 
-#Folder Structure
-
-project/
-├── src/
-│   ├── components/
-│   │   ├── RegistrationForm.js
-│   │   └── RidesList.js
-│   ├── styles/
-│   │   ├── RegistrationForm.css
-│   │   └── RidesList.css
-│   └── App.js
-└── public/
-     └── index.html
-
 #Setup Instructions
 
 1. Prerequisites
