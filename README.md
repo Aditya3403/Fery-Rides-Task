@@ -1,10 +1,8 @@
-Rides List Application
-
-Description
+#Rides List Application
 
 The Rides List Application is a React-based web application that allows users to register, view a list of available rides, and explore detailed ride information. It provides a clean, user-friendly interface with aesthetic design elements to enhance user engagement.
 
-Features
+#Features
 
 1. User Registration
 
@@ -32,7 +30,7 @@ Aesthetic styling for registration forms and rides list.
 
 Responsive design to ensure compatibility across devices.
 
-Folder Structure
+#Folder Structure
 
 project/
 ├── src/
@@ -46,7 +44,7 @@ project/
 └── public/
      └── index.html
 
-Setup Instructions
+#Setup Instructions
 
 1. Prerequisites
 
@@ -75,7 +73,7 @@ Open your browser and navigate to:
 
 http://localhost:3000
 
-API Endpoints
+#API Endpoints
 
 1. Registration Endpoint
 
@@ -90,7 +88,7 @@ Request Body:
   "password": "<password>"
 }
 
-Response:
+#Response:
 
 {
   "message": "Registration successful"
@@ -117,7 +115,7 @@ Response:
   }
 ]
 
-Custom Styling
+#Custom Styling
 
 Registration Form
 
@@ -135,7 +133,7 @@ Box-styled layout for each ride.
 
 Enhanced with hover effects and spacing.
 
-Future Enhancements
+#Future Enhancements
 
 Authentication
 
